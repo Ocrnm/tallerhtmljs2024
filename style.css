@@ -1,0 +1,55 @@
+* {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    align-content: center;
+}
+
+.header {
+    background-color: gray;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.main {
+    padding: 1rem;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.main a:visited {
+    color: blue;
+}
+
+.main p {
+    margin-bottom: 1rem;
+}
+
+.main ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
